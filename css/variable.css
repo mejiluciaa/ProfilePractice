@@ -1,0 +1,43 @@
+@import url:@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+    --Primary: #6100e9;
+    --Primary-light: #995df0;
+    --Primary-extra-light:#efe4fc;
+    --Primary-dark: #0800d1;
+    --Secondary:#d600e9;
+    --Secondary-dark:#a200db;
+    --Secondary-light:#e988f1;
+    --Secondary-extra-light: #fae3fb;
+    --Danger: #ee008d;
+    --Danger-light: #f183be;
+    --Danger-extra-light: #fbe1ef;
+    --Danger-dark: #b10068;
+    --Warning: #ee5f14;
+    --Warning-light: #ff8e1f;
+    --Warning-extra-light: #fff2e0;
+    --Warning-dark: #08b226;
+    --Success: #595959;
+    --Success-light:#767676;
+    --Success-extra-light: #e0e0e0;
+    --Success-dark:#272727;
+    --Gray: #595959;
+    --Gray-light: #767676;
+    --Gray-extra-light: #e0e0e0;
+    --Gray-dark:#272727;
+    --White: #fffff;
+    --Primary-gradient: linear-gradient(180deg, #efe4fc 0%, rgba(239, 228, 252, 0) 100%);
+    --Primary-gradient-rev:(180deg, egba(239, 228, 252, 0) 0%, #efe4fc 100%);
+    --font-size-h1: 6rem;
+    --font-size-h2: 3.75rem;
+    --font-size-h3: 3rem;
+    --font-size-h4: 2.125rem;
+    --font-size-h5: 1.5rem;
+    --font-size-h6: 1.25rem;
+    --font-size-body-small:0.875rem;
+    --font-size-buttom: 0.875rem
+    --font-size-buttom: 1.2rem;
+
+
+
+
+}
