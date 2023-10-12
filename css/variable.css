@@ -1,4 +1,6 @@
 @import url:@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url(url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css'));
 :root{
     --Primary: #6100e9;
     --Primary-light: #995df0;
@@ -24,7 +26,7 @@
     --Gray-light: #767676;
     --Gray-extra-light: #e0e0e0;
     --Gray-dark:#272727;
-    --White: #fffff;
+    --White: #ffff;
     --Primary-gradient: linear-gradient(180deg, #efe4fc 0%, rgba(239, 228, 252, 0) 100%);
     --Primary-gradient-rev:(180deg, egba(239, 228, 252, 0) 0%, #efe4fc 100%);
     --font-size-h1: 6rem;
@@ -36,8 +38,46 @@
     --font-size-body-small:0.875rem;
     --font-size-buttom: 0.875rem
     --font-size-buttom: 1.2rem;
-
-
-
-
+    --container-width: 1400px;
 }
+
+@media all and (max-width: 1400px) {
+
+    :root {
+        --container-width: 1140px;
+    }
+    
+}
+
+@media all and (max-width: 1200px) {
+
+    :root {
+        --container-width: 960px;
+    }
+    
+}
+
+@media all and (max-width: 992px) {
+
+    :root {
+        --container-width: 720px;
+    }
+    
+}
+
+@media all and (max-width: 768px) {
+
+    :root {
+        --container-width: 540px;
+    }
+    
+}
+
+@media all and (max-width: 576px) {
+
+    :root {
+        --container-width: calc(100%-40px);
+    }
+    
+}
+    
